@@ -1,0 +1,15 @@
+{
+  "name": "dianzan-plugin",
+  "version": "1.0.0",
+  "description": "点赞续火插件 - 自动点赞和发送一言续火",
+  "main": "index.js",
+  "type": "module",
+  "pluginInfo": {
+    "name": "点赞续火插件",
+    "author": "您的名字",
+    "description": "自动点赞和续火功能"
+  },
+  "dependencies": {
+    "node-schedule": "^2.1.1"
+  }
+}

@@ -1,0 +1,25 @@
+# 自动点赞续火列表
+thumbsUpMelist:
+  703363717:    # 作者QQ
+    push: true      # 是否开启点赞消息推送
+    hitokoto: true   # 是否开启推送一言
+# 点赞配置
+thumbsUpMe:
+  sum: 10           # 点赞次数
+  msg: "芙芙给你点赞啦，记得给我回赞哦"  # 点赞消息
+
+# 一言配置  
+hitokoto:
+  api: "https://v1.hitokoto.cn/?encode=text&charset=utf-8&c=d&c=i&c=h&c=e"
+  default_text: "种自己的花，爱自己的宇宙🌍"
+
+# 冷却配置
+cooldown:
+  count: 1          # 一天触发次数限制
+  tips: "哼哼哼，今天已经点过赞啦，还想骗芙芙的赞，你这个坏人"
+
+# 定时任务配置
+schedule:
+  thumbsUp: "30 5 12 * * *"    # 点赞时间 (12:05:30)
+  hitokoto: "30 15 12 * * *"   # 续火时间 (12:15:30)
+  resetCD: "0 0 0 * * *"       # 重置冷却时间 (00:00:00)
