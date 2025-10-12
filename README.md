@@ -1,8 +1,8 @@
 # 点赞续火插件
 
-一个用于自动点赞和发送一言续火的Yunzai插件。
+一个用于自动点赞和发送一言续火的 Yunzai 插件。
 
-> **声明**：这是我第一次开发Yunzai插件，部分功能逻辑参考了 [xiaotian2333/yunzai-plugins-Single-file](https://github.com/xiaotian2333/yunzai-plugins-Single-file/blob/main/%E7%82%B9%E8%B5%9E%E7%BB%AD%E7%81%AB.js) 项目，感谢原作者的分享。在AI的帮助下完成了代码重构和模块化。
+> **声明**：这是我第一次开发 Yunzai 插件，部分功能逻辑参考了 [xiaotian2333/yunzai-plugins-Single-file](https://github.com/xiaotian2333/yunzai-plugins-Single-file/blob/main/%E7%82%B9%E8%B5%9E%E7%BB%AD%E7%81%AB.js) 项目，感谢原作者的分享。在 AI 的帮助下完成了代码重构和模块化。
 
 ## 功能
 - 🎯 手动触发点赞和一言
@@ -11,17 +11,18 @@
 - ⚙️ 完全可配置
 
 ## 安装
-\`\`\`bash
-# 克隆插件
 
-git clone https://github.com/a2112670147/dianzan-plugin.git ./plugins/dianzan-plugin
+
+# 克隆插件
+```git clone https://github.com/a2112670147/dianzan-plugin.git ./plugins/dianzan-plugin```
 
 # 进入插件目录安装依赖
+```
 cd plugins/dianzan-plugin
 pnpm install
-
-# 重启Yunzai
-安装完成后重启Yunzai
+```
+# 重启 Yunzai
+安装完成后重启 Yunzai
 
 ## 🎮 使用说明
 
@@ -43,7 +44,6 @@ pnpm install
 
 编辑 \`config/default_config/dianzan.yaml\` 文件：
 
-\`\`\`yaml
 # 自动点赞续火列表（在此添加好友QQ）
 thumbsUpMelist:
   123456789:    # 好友QQ号
