@@ -1,6 +1,9 @@
 # 点赞续火插件
 
 一个用于自动点赞和发送一言续火的 Yunzai 插件。
+![License](https://img.shields.io/github/license/a2112670147/dianzan-plugin)
+![Last Commit](https://img.shields.io/github/last-commit/a2112670147/dianzan-plugin)
+![Stars](https://img.shields.io/github/stars/a2112670147/dianzan-plugin?style=social)
 
 > **声明**：这是我第一次开发 Yunzai 插件，部分功能逻辑参考了 [xiaotian2333/yunzai-plugins-Single-file](https://github.com/xiaotian2333/yunzai-plugins-Single-file/blob/main/%E7%82%B9%E8%B5%9E%E7%BB%AD%E7%81%AB.js) 项目，感谢原作者的分享。在 AI 的帮助下完成了代码重构和模块化。
 
