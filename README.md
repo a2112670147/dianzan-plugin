@@ -1,6 +1,3 @@
-
-```bash
-@"
 # 点赞续火插件
 
 一个用于自动点赞和发送一言续火的Yunzai插件。
@@ -16,6 +13,7 @@
 ## 安装
 \`\`\`bash
 # 克隆插件
+
 git clone https://github.com/a2112670147/dianzan-plugin.git ./plugins/dianzan-plugin
 
 # 进入插件目录安装依赖
@@ -23,10 +21,7 @@ cd plugins/dianzan-plugin
 pnpm install
 
 # 重启Yunzai
-cd ../..
-npm run stop
-npm start
-\`\`\`
+安装完成后重启Yunzai
 
 ## 🎮 使用说明
 
@@ -58,7 +53,7 @@ thumbsUpMelist:
 # 点赞配置
 thumbsUpMe:
   sum: 10           # 每次点赞次数
-  msg: \"派蒙给你点赞啦，记得给我回赞哦\"  # 点赞消息
+  msg: \"芙芙给你点赞啦，记得给我回赞哦\"  # 点赞消息
 
 # 一言配置
 hitokoto:
@@ -68,7 +63,7 @@ hitokoto:
 # 冷却配置
 cooldown:
   count: 1          # 每天可触发次数
-  tips: \"点过就别继续发了，还搁这讨赞呢？你是乞丐吗？😏\"
+  tips: \"哼哼哼，今天已经点过赞啦，还想骗芙芙的赞，你这个坏人\"
 
 # 定时任务配置（cron表达式）
 schedule:
