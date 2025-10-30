@@ -79,4 +79,3 @@ schedule:
 - 感谢 [xiaotian2333](https://github.com/xiaotian2333) 的原版点赞续火脚本
 - 感谢 Yunzai-Bot 社区
 - 感谢所有测试和使用本插件的用户
-"@ | Out-File -FilePath README.md -Encoding UTF8
