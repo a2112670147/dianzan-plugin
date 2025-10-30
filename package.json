@@ -9,6 +9,10 @@
     "author": "您的名字",
     "description": "自动点赞和续火功能"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a2112670147/dianzan-plugin.git"
+  },
   "dependencies": {
     "node-schedule": "^2.1.1"
   }
